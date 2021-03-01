@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+* {
+  /* 全要素の余白をリセット */
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #333333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #aaaaaa;
+  padding: 10px;
+
+  nav {
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        margin: 10px;
+        width: 50px;
+      }
+    }
+  }
+
+}
