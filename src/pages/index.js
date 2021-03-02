@@ -11,10 +11,12 @@ const Home = () => {
           <section id="hello" className="content">
             <h2>ご挨拶</h2>
             <div className="contents">
-              <div className="content image-content">画像</div>
+              <div className="content image-content">
+                {/* <img src="images/profile.png" /> */}
+              </div>
               <div className="content text-content">
                 <p>
-                  ご覧いただきありがとうございます。MKのポートフォリオサイトです。
+                  ご覧いただきありがとうございます。Negiのポートフォリオサイトです。
                 </p>
                 <p>
                   新卒でシステム開発会社に入社し、関東・九州にて12年ほどサーバー側メインのプログラマ・システムエンジニアとして設計から総合試験までを担当致しました。
@@ -31,7 +33,7 @@ const Home = () => {
                   現在、宮崎県宮崎市内もしくはフルリモートで働ける開発・コーディング・IT系のお仕事を探しております。よろしくお願いします。
                 </p>
                 <div className="footer-link">
-                  <Link to="/about">＞＞ 詳しくはこちら</Link>
+                  <Link to="/about">詳しくはこちら（自己紹介へ）</Link>
                 </div>
               </div>
             </div>
@@ -39,12 +41,15 @@ const Home = () => {
           <section id="skill" className="content">
             <h2>スキル</h2>
             <div className="contents">
-              <div className="content image-content">画像</div>
               <div className="content text-content">
                 <h3>主な担当工程</h3>
-                <p>
-                  基本設計、詳細設計、製造、単体試験設計、単体試験、総合試験設計、総合試験
-                </p>
+                <ul>
+                  <li>基本設計</li>
+                  <li>詳細設計</li>
+                  <li>製造</li>
+                  <li>単体試験設計・実施</li>
+                  <li>総合試験設計・実施</li>
+                </ul>
                 <p>
                   ※プロジェクトごと・お客様ごとに異なる設計書の形式やコーディング規約に沿って設計・開発業務を行ってきました
                 </p>
@@ -83,7 +88,7 @@ const Home = () => {
                   </ul>
                 </ul>
                 <div className="footer-link">
-                  <Link to="/skill">＞＞ 詳しくはこちら</Link>
+                  <Link to="/skill">詳しくはこちら(スキル詳細へ)</Link>
                 </div>
               </div>
             </div>
