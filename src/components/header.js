@@ -54,7 +54,7 @@ const Header = () => {
               </li>
               <li>
                 <a href="https://mkdev.mtnk.work" target="blank">
-                  Blog(WP)
+                  Blog(WordPress)
                 </a>
               </li>
             </ul>
