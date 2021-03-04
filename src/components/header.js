@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container">
         <div id="site-title">
           <h1>
-            <Link to="/">Negi's Portfolio</Link>
+            <Link to="/">Mikinik's Portfolio</Link>
           </h1>
         </div>
 
@@ -17,19 +17,49 @@ const Header = () => {
               <Link to="/">Top</Link>
             </li>
             <li>
-              <Link to="/about">自己紹介</Link>
+              <Link to="/about">Profile</Link>
             </li>
             <li>
-              <Link to="/skill">スキル</Link>
+              <Link to="/skill">Skill</Link>
             </li>
             <li>
-              <Link to="/works">ポートフォリオ</Link>
+              <Link to="/works">Works</Link>
             </li>
             <li>
-              <Link to="/contact">連絡先</Link>
+              <a href="https://mkdev.mtnk.work" target="blank">
+                Blog(WP)
+              </a>
             </li>
           </ul>
         </nav>
+        {/* ハンバーガーメニュー：同じこと二回書いている。余裕があればちゃんと調べて実装する。 */}
+        <div className="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check"></input>
+          <label htmlFor="menu-btn-check" className="menu-btn">
+            <span></span>
+          </label>
+          <div className="menu-content">
+            <ul>
+              <li>
+                <Link to="/">Top</Link>
+              </li>
+              <li>
+                <Link to="/about">Profile</Link>
+              </li>
+              <li>
+                <Link to="/skill">Skill</Link>
+              </li>
+              <li>
+                <Link to="/works">Works</Link>
+              </li>
+              <li>
+                <a href="https://mkdev.mtnk.work" target="blank">
+                  Blog(WP)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
   )

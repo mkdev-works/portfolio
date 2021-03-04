@@ -1,11 +1,16 @@
 @charset "utf-8";
 
+// ----------------------------------------
+// メイン部のCSSを記載する
+// @author MK
+// ----------------------------------------
 main {
   background-color: #dddddd;
 
-  section {
-    // border: 1px solid red;
+  .content-container {
     margin: 50px 0px;
+
+
 
     // タイトル
     h2 {
@@ -25,7 +30,6 @@ main {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      background-color: #ffffff;
       border-radius: 5px;
 
       // 画像とテキストのコンテンツ
@@ -33,7 +37,6 @@ main {
         min-width: 250px;
         width: 250px;
         text-align: center;
-        // border: 1px solid blue;
 
         img {
           margin: 10px;
@@ -45,7 +48,6 @@ main {
 
         p {
           padding: 10px 20px;
-          // border: 1px solid red;
         }
 
         ul {

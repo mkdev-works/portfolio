@@ -7,8 +7,8 @@ const Home = () => {
     <div>
       <Layout>
         {/* mainタグ内部 */}
-        <div className="container">
-          <section id="hello" className="content">
+        <section id="hello" className="content-container">
+          <div className="container">
             <h2>ご挨拶</h2>
             <div className="contents">
               <div className="content image-content">
@@ -16,29 +16,30 @@ const Home = () => {
               </div>
               <div className="content text-content">
                 <p>
-                  ご覧いただきありがとうございます。Negiのポートフォリオサイトです。
+                  ご覧いただきありがとうございます。フルスタックエンジニアを目指すミキニクのポートフォリオサイトです。
                 </p>
                 <p>
-                  新卒でシステム開発会社に入社し、関東・九州にて12年ほどサーバー側メインのプログラマ・システムエンジニアとして設計から総合試験までを担当致しました。
+                  新卒でシステム開発会社に入社し、関東・九州にて12年ほどサーバー側メインのシステムエンジニアとして設計開発を行ってきました。
                 </p>
                 <p>
                   フロントエンド、インフラなど知見を広げたく思い、退職後はAWSやPHP(Laravel)、Vue.jsなどを独習しています。
                 </p>
                 <p>
-                  また、Web系の職業訓練校にてサイトデザインやAdobe
-                  Photoshopでのバナー作成、マーケティングや広告、ネットショップ運営・企画など広範なWebの基礎知識を学びました。動画編集ソフト(Adobe
+                  また、Web系の職業訓練校にてデザインやバナー作成、マーケティングや広告、ネットショップ運営や企画など広範なWebの基礎知識を学びました。動画編集ソフト(Adobe
                   Premiere Pro)も基本操作が可能です。
                 </p>
                 <p>
-                  現在、宮崎県宮崎市内もしくはフルリモートで働ける開発・コーディング・IT系のお仕事を探しております。よろしくお願いします。
+                  現在、宮崎県宮崎市もしくはフルリモートで働ける開発・コーディング・IT系のお仕事を探しております。よろしくお願いします！
                 </p>
                 <div className="footer-link">
                   <Link to="/about">詳しくはこちら（自己紹介へ）</Link>
                 </div>
               </div>
             </div>
-          </section>
-          <section id="skill" className="content">
+          </div>
+        </section>
+        <section id="skill" className="content-container">
+          <div className="container">
             <h2>スキル</h2>
             <div className="contents">
               <div className="content text-content">
@@ -92,8 +93,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </Layout>
     </div>
   )
