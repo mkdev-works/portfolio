@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container">
         <div id="site-title">
           <h1>
-            <Link to="/">Mikinik's Portfolio</Link>
+            <Link to="/">Kei's Portfolio</Link>
           </h1>
         </div>
 
