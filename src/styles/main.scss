@@ -8,8 +8,12 @@ main {
   background-color: #dddddd;
   padding-bottom: 80px;
 
+  // コンテンツ格納SECTION
   .content-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+    // 色分け
     &:nth-child(even) {
       background-color: #ffffff;
     }
@@ -23,7 +27,7 @@ main {
     }
 
     h3 {
-      margin: 20px 15px 10px 15px;
+      margin: 20px 0px 10px 0px;
       padding: 5px 10px;
       border-left: 10px solid #333333;
     }
@@ -33,64 +37,75 @@ main {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      border-radius: 5px;
 
-      // 画像とテキストのコンテンツ
-      .image-content {
+      // プロフィール
+      .profile {
         max-width: 350px;
         width: 350px;
         text-align: center;
 
-        img {
-          margin: 0px;
+        figure {
           width: 100%;
         }
       }
 
+      // テキストコンテンツ部
       .text-content {
         flex: 1;
-
-        ul {
-          padding-left: 40px;
-        }
-
       }
 
+      // 半分の幅のコンテンツ
       .half-content {
+        min-width: 48%;
+        max-width: 48%;
+      }
+
+      // 作例の説明文
+      .description {
+        font-size: 90%;
+        color: #666666;
+      }
+
+      // 作例リスト
+      .works {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      // 作例1こ
+      .work {
         width: 48%;
-        border-radius: 5px;
-        background-color: #ffffff;
 
-        .description {
-          font-size: 90%;
-          color: #666666;
-        }
-
-        .cards {
-          display: flex;
-        }
-
-        .card {
-          width: 50%;
-          padding: 10px;
-
-          img {
-            width: 100%;
-          }
+        figure {
+          border: 1px solid #666666;
+          width: 100%;
         }
       }
 
+      .full-content {
+        min-width: 100%;
+
+        .work {
+          width: 24%;
+        }
+      }
+
+      // 共通
       p {
-        padding: 10px 20px;
+        padding: 10px 15px;
+      }
+
+      ul {
+        padding-left: 40px;
+        padding-bottom: 10px;
       }
 
       .footer-link {
-        // height: 30px;
         text-align: right;
         padding: 10px;
       }
     }
-
 
     a {
       display: inline-block;
@@ -108,6 +123,65 @@ main {
         border: 1px solid #eeeeee;
         background-color: #ffffff;
         filter: drop-shadow(1px 1px 2px rgba(58, 58, 58, 0.5));
+      }
+    }
+  }
+}
+
+// 画面：中サイズ以下
+@media screen and (max-width:800px) {
+  main {
+
+    // 画像サイズを少し小さくする
+    .image-content {
+      width: 200px;
+    }
+
+    .content-container {
+      .contents {
+
+        // 横並びコンテンツを折り返す
+        .half-content {
+          min-width: 100%;
+        }
+
+        .full-content {
+          .works {
+            .work {
+              min-width: 48%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 画面：小サイズ以下
+@media screen and (max-width:500px) {
+  main {
+
+    .content-container {
+      .contents {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        .profile {
+          max-width: 100%;
+          width: 400px;
+
+          figure {
+            width: 100%;
+          }
+        }
+
+        .works {
+          .work {
+            min-width: 48%;
+          }
+        }
+
       }
     }
   }
