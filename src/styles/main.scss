@@ -6,6 +6,7 @@
 // ----------------------------------------
 main {
   background-color: #dddddd;
+  padding-bottom: 80px;
 
   .content-container {
 
@@ -13,14 +14,12 @@ main {
       background-color: #ffffff;
     }
 
-
     // タイトル
     h2 {
-      font-size: 35px;
+      font-size: 45px;
       text-align: center;
-      padding-top: 50px;
-      padding-bottom: 50px;
-
+      padding-top: 80px;
+      padding-bottom: 20px;
     }
 
     h3 {
@@ -38,32 +37,60 @@ main {
 
       // 画像とテキストのコンテンツ
       .image-content {
-        min-width: 250px;
-        width: 250px;
+        max-width: 350px;
+        width: 350px;
         text-align: center;
 
         img {
-          margin: 10px;
+          margin: 0px;
+          width: 100%;
         }
       }
 
       .text-content {
         flex: 1;
 
-        p {
-          padding: 10px 20px;
-        }
-
         ul {
           padding-left: 40px;
         }
 
-        .footer-link {
-          text-align: right;
+      }
+
+      .half-content {
+        width: 48%;
+        border-radius: 5px;
+        background-color: #ffffff;
+
+        .description {
+          font-size: 90%;
+          color: #666666;
+        }
+
+        .cards {
+          display: flex;
+        }
+
+        .card {
+          width: 50%;
           padding: 10px;
+
+          img {
+            width: 100%;
+          }
         }
       }
+
+      p {
+        padding: 10px 20px;
+      }
+
+      .footer-link {
+        // height: 30px;
+        text-align: right;
+        padding: 10px;
+      }
     }
+
 
     a {
       display: inline-block;
