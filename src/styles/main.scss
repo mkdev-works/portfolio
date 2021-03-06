@@ -10,8 +10,8 @@ main {
 
   // コンテンツ格納SECTION
   .content-container {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     // 色分け
     &:nth-child(even) {
@@ -22,8 +22,8 @@ main {
     h2 {
       font-size: 45px;
       text-align: center;
-      padding-top: 80px;
-      padding-bottom: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
 
     h3 {
@@ -42,10 +42,42 @@ main {
       .profile {
         max-width: 350px;
         width: 350px;
-        text-align: center;
 
         figure {
-          width: 100%;
+          width: 90%;
+        }
+      }
+
+
+      // 説明リスト(横並び)
+      dl.two-columns {
+
+        // タイトル、説明を横並びにする
+        dt,
+        dd {
+          // border: 1px solid red;
+          display: block;
+          float: left;
+          padding: 5px 10px;
+        }
+
+        // タイトル
+        dt {
+          width: 100px;
+          clear: left;
+          float: left;
+        }
+
+        // 説明
+        dd {
+          display: block;
+          max-width: calc(100% - 150px);
+
+          // リスト項目
+          ul {
+            padding-left: 15px;
+            list-style-type: disc;
+          }
         }
       }
 
@@ -79,7 +111,6 @@ main {
 
         figure {
           border: 1px solid #666666;
-          width: 100%;
         }
       }
 
@@ -132,13 +163,17 @@ main {
 @media screen and (max-width:800px) {
   main {
 
-    // 画像サイズを少し小さくする
-    .image-content {
-      width: 200px;
-    }
+
 
     .content-container {
       .contents {
+
+        // 画像サイズを少し小さくする
+        // プロフィール
+        .profile {
+          max-width: 200px;
+          width: 200px;
+        }
 
         // 横並びコンテンツを折り返す
         .half-content {
@@ -167,15 +202,19 @@ main {
         justify-content: flex-start;
         flex-direction: column;
 
+        // 自己紹介
         .profile {
+          display: flex;
+          justify-content: center;
           max-width: 100%;
           width: 400px;
 
-          figure {
-            width: 100%;
-          }
+          // figure {
+          //   width: 100%;
+          // }
         }
 
+        // ポートフォリオ
         .works {
           .work {
             min-width: 48%;

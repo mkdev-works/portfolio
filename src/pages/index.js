@@ -60,7 +60,6 @@ const Home = () => {
               </div>
               <div className="half-content">
                 <h3>主な開発業務と使用スキル</h3>
-
                 <ul>
                   <li>
                     業務管理系Webシステム(ATM管理、警備会社の警送管理、地方自治体のVoIP放送管理、他)
