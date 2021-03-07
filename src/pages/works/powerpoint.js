@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout.js"
 import Meta from "../../components/meta.js"
+import Image from "../../components/image.js"
 
 const Powerpoint = () => {
   return (
@@ -15,30 +16,33 @@ const Powerpoint = () => {
               {/* 作例1 */}
               <div className="full-content">
                 <h3>課題：自分の好きなものについて皆にオススメする</h3>
-                <p>
-                  PowerPointは未経験だったので、全体の構成の組み立て方、PowerPointの使い方などたいへん勉強になりました。
-                </p>
-                <iframe
-                  src="https://gxa5jpzx-my.sharepoint.com/personal/kusumegi_gxa5jpzx_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc={128a6339-319b-410f-b876-144fc8350bb4}&amp;action=embedview&amp;wdAr=1.7777777777777777"
-                  frameborder="0"
-                >
-                  これは、
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://office.com/webapps"
-                  >
-                    Office
-                  </a>
-                  の機能を利用した、
-                  <a target="_blank" rel="noreferrer" href="https://office.com">
-                    Microsoft Office
-                  </a>
-                  の埋め込み型のプレゼンテーションです。
-                </iframe>
-                <p className="description">
-                  プレゼンの構成/デザイン・テーマ統一/トランジション/発表時間の管理/滑舌の悪さ・緊張との戦い/
-                </p>
+
+                <div className="works">
+                  <div className="work">
+                    <Image filename="powerPoint1.png" />
+
+                    <p className="description">
+                      プレゼンの構成/デザイン・テーマ統一/トランジション/発表時間の管理/滑舌の悪さ・緊張との戦い/
+                    </p>
+                  </div>
+                  <div className="detail">
+                    <h4>成果物</h4>
+                    <div className="links">
+                      <a
+                        href="https://gxa5jpzx-my.sharepoint.com/:p:/g/personal/kusumegi_gxa5jpzx_onmicrosoft_com/ETljihKbMQ9BuHYUT8g1C7QBufyinfeGL-e5BfCio0I-jA?e=UncdHQ"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        プレゼン資料へ(Office365)
+                      </a>
+                    </div>
+                    <h4>説明</h4>
+                    <p>
+                      PowerPointは未経験だったので、全体の構成の組み立て方、PowerPointの使い方などたいへん勉強になりました。
+                    </p>
+                  </div>
+                </div>
+
                 <div className="footer-link">
                   <Link to="/works">ポートフォリオへ戻る</Link>
                 </div>
@@ -47,31 +51,33 @@ const Powerpoint = () => {
               {/* 作例2 */}
               <div className="full-content">
                 <h3>非エンジニア向けにGitを紹介する</h3>
-                <p>
-                  ミスって作業途中でファイルをダメにしてしまった……という話をきくたびに皆Git使ったら幸せになれるのにな、と思っていたのでプレゼンしました。(まあ共有PCでは使えないのですけど)
-                  <br></br>
-                </p>
-                <iframe
-                  src="https://gxa5jpzx-my.sharepoint.com/personal/kusumegi_gxa5jpzx_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc={dfd24fb1-0083-4a5d-b65c-0e3200665c40}&amp;action=embedview&amp;wdAr=1.7777777777777777"
-                  frameborder="0"
-                >
-                  これは、
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://office.com/webapps"
-                  >
-                    Office
-                  </a>{" "}
-                  の機能を利用した、
-                  <a target="_blank" rel="noreferrer" href="https://office.com">
-                    Microsoft Office
-                  </a>{" "}
-                  の埋め込み型のプレゼンテーションです。
-                </iframe>
-                <p className="description">
-                  プレゼンの構成/図形・画像/デザイン・テーマ統一/発表時間の管理
-                </p>
+
+                <div className="works">
+                  <div className="work">
+                    <Image filename="powerPoint2.jpg" />
+
+                    <p className="description">
+                      レゼンの構成/図形・画像/デザイン・テーマ統一/発表時間の管理
+                    </p>
+                  </div>
+                  <div className="detail">
+                    <h4>成果物</h4>
+                    <div className="links">
+                      <a
+                        href="https://gxa5jpzx-my.sharepoint.com/:p:/g/personal/kusumegi_gxa5jpzx_onmicrosoft_com/EbFP0t-DAF1KtlwOMgBmXEABmuSWqnftbREk6fxULY6teg?e=FtNKe5"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        プレゼン資料へ(Office365)
+                      </a>
+                    </div>
+                    <h4>説明</h4>
+                    <p>
+                      ミスって作業途中でファイルをダメにしてしまった……という話をきくたびに皆Git使ったら幸せになれるのにな、と思っていたのでプレゼンしました。
+                    </p>
+                  </div>
+                </div>
+
                 <div className="footer-link">
                   <Link to="/works">ポートフォリオへ戻る</Link>
                 </div>
