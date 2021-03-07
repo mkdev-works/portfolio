@@ -32,7 +32,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        {/* ハンバーガーメニュー：同じこと二回書いている。余裕があればちゃんと調べて実装する。 */}
+        {/* ハンバーガーメニュー：同じこと二回書いている。時間に余裕があればちゃんと調べて実装する。 */}
         <div className="hamburger-menu">
           <input type="checkbox" id="menu-btn-check"></input>
           <label htmlFor="menu-btn-check" className="menu-btn">
