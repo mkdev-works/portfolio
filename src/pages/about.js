@@ -44,11 +44,15 @@ const About = () => {
                     <ul>
                       <li>
                         読書<br></br>
-                        月5〜10冊くらい（漫画・小説、実用書、テキストなど）
+                        月5〜10冊（漫画・小説、実用書、テキストなど）
                       </li>
                       <li>
                         ゲーム<br></br>
-                        シミュレーション、RPGが好きです。
+                        年1〜2本(シミュレーション、RPGが好き)
+                      </li>
+                      <li>
+                        バイク<br></br>
+                        ホンダ クロスカブ CC110(JA45)
                       </li>
                     </ul>
                   </dd>
@@ -62,7 +66,7 @@ const About = () => {
 
                   <dt>その他</dt>
                   <dd>
-                    健康のために毎朝ストレッチとラジオ体操をやってます。割と快調！
+                    健康のために毎朝ラジオ体操をやってます。始めてから半年、割と快調！
                     <br></br>
                   </dd>
                 </dl>
@@ -91,7 +95,8 @@ const About = () => {
                   <li>日商簿記2級</li>
                   <li>ファイナンシャルプランナー3級</li>
                   <li>普通自動車免許(AT限定)</li>
-                  <li>小型限定普通二輪免許(AT限定)</li>{" "}
+                  <li>小型限定普通二輪免許(AT限定)</li>
+                  <li>小型船舶免許</li>
                 </ul>
               </div>
             </div>
@@ -105,7 +110,9 @@ const About = () => {
               <div className="half-content">
                 <h3>リモートワーク対応できます</h3>
                 <Image filename="room.jpg" alt="作業環境" />
-                <p>Webカメラがない以外はリモートワークに適した環境</p>
+                <p className="description">
+                  Webカメラがスマホでよければいつでもリモートワーク可能
+                </p>
               </div>
               <div className="half-content">
                 <h3>開発・動作確認端末</h3>
@@ -124,7 +131,7 @@ const About = () => {
                 <h3>その他</h3>
                 <ul>
                   <li>椅子：アーロンチェア（腰痛対策）</li>
-                  <li>キーボード：東プレ RealForce</li>
+                  <li>キーボード：東プレ RealForce（腱鞘炎対策）</li>
                 </ul>
               </div>
             </div>
