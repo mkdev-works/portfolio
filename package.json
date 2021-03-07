@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "fontsource-noto-sans-jp": "^4.0.0",
     "gatsby": "^3.0.2",
     "gatsby-image": "^3.0.0",
     "gatsby-plugin-react-helmet": "^4.0.0",
