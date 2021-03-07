@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout.js"
-import Image from "../../components/image.js"
 import Meta from "../../components/meta.js"
 
 const Powerpoint = () => {
@@ -24,11 +23,15 @@ const Powerpoint = () => {
                   frameborder="0"
                 >
                   これは、
-                  <a target="_blank" href="https://office.com/webapps">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://office.com/webapps"
+                  >
                     Office
                   </a>
                   の機能を利用した、
-                  <a target="_blank" href="https://office.com">
+                  <a target="_blank" rel="noreferrer" href="https://office.com">
                     Microsoft Office
                   </a>
                   の埋め込み型のプレゼンテーションです。
@@ -53,11 +56,15 @@ const Powerpoint = () => {
                   frameborder="0"
                 >
                   これは、
-                  <a target="_blank" href="https://office.com/webapps">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://office.com/webapps"
+                  >
                     Office
                   </a>{" "}
                   の機能を利用した、
-                  <a target="_blank" href="https://office.com">
+                  <a target="_blank" rel="noreferrer" href="https://office.com">
                     Microsoft Office
                   </a>{" "}
                   の埋め込み型のプレゼンテーションです。

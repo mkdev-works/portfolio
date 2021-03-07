@@ -26,7 +26,11 @@ const Header = () => {
               <Link to="/works">Works</Link>
             </li>
             <li>
-              <a href="https://mkdev.mtnk.work" target="blank">
+              <a
+                href="https://mkdev.mtnk.work"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Blog(WP)
               </a>
             </li>
@@ -53,7 +57,11 @@ const Header = () => {
                 <Link to="/works">Works</Link>
               </li>
               <li>
-                <a href="https://mkdev.mtnk.work" target="blank">
+                <a
+                  href="https://mkdev.mtnk.work"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Blog(WordPress)
                 </a>
               </li>

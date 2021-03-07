@@ -31,12 +31,14 @@ const Website = () => {
                       <a
                         href="https://github.com/mkdev-works/portfolio-cafe-site"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         GitHubへ
                       </a>
                       <a
                         href="http://km-portfolio-cafe.mtnk.work/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         動作サンプルへ
                       </a>
@@ -71,12 +73,14 @@ const Website = () => {
                       <a
                         href="https://github.com/mkdev-works/portfolio-photo-site/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         GitHubへ
                       </a>
                       <a
                         href="http://km-portfolio-photo.mtnk.work/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         動作サンプルへ
                       </a>
