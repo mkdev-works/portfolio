@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout.js"
 import Image from "../components/image.js"
-import ImageLink from "../components/imageLink.js"
 import Meta from "../components/meta.js"
 
 const Works = () => {
@@ -13,7 +12,6 @@ const Works = () => {
           title="ポートフォリオ"
           desc="静的Webサイト作成、コーディング、画像編集、Officeなどの作品集"
         ></Meta>
-
         {/* ポートフォリオ */}
         <section id="work" className="content-container">
           <div className="container">
@@ -28,11 +26,11 @@ const Works = () => {
                 <div className="works">
                   <div className="work">
                     <Image filename="01_cafe.jpg" alt="" />
-                    <p className="description">架空のカフェ</p>
+                    <p className="description">テーマ：架空のカフェ</p>
                   </div>
                   <div className="work">
                     <Image filename="02_photo.jpg" alt="" />
-                    <p className="description">架空のPhotoサイト</p>
+                    <p className="description">テーマ：架空のPhotoサイト</p>
                   </div>
                 </div>
 
@@ -48,12 +46,14 @@ const Works = () => {
                   <div className="work">
                     <Image filename="01_gatsby-portfolio.jpg" alt="" />
                     <p className="description">
-                      このサイトです。流行りのSSG、Gatsby.jsを使ってみました。Reactの勉強もしたいです。
+                      テーマ：Gatsby.jsを使用したポートフォリオサイト
                     </p>
                   </div>
                   <div className="work">
-                    <Image filename="02_photo.jpg" alt="" />
-                    <p className="description">架空のPhotoサイト</p>
+                    <Image filename="01_user-01.png" alt="" />
+                    <p className="description">
+                      テーマ：Vue.js,Laravelマルチログイン,AmazonSESを試す
+                    </p>
                   </div>
                 </div>
 
@@ -104,11 +104,11 @@ const Works = () => {
                 <div className="works">
                   <div className="work">
                     <Image filename="word1.jpg" alt="" />
-                    <p className="description">書式/画像/表</p>
+                    <p className="description">テーマ：書式,画像,表</p>
                   </div>
                   <div className="work">
                     <Image filename="excel1.jpg" alt="" />
-                    <p className="description">書式/一覧/関数/グラフ</p>
+                    <p className="description">テーマ：書式,一覧,関数,グラフ</p>
                   </div>
                 </div>
 

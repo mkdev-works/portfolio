@@ -15,41 +15,47 @@ const Code = () => {
             <div className="contents">
               {/* Webサイト */}
               <div className="full-content">
-                <h3>XXX</h3>
+                <h3>Gatsby.jsを使用したポートフォリオサイト</h3>
                 {/* 作例 */}
                 <div className="works">
                   <div className="work">
-                    <h4>課題：デザイン(PSD)</h4>
-                    <Image filename="cafe-site-image1.jpg" alt="" />
-                    <Image filename="cafe-site-image2.jpg" className="half" />
-                    <Image filename="cafe-site-image3.jpg" className="half" />
+                    <h4>目標：Gatsby.jsを使ってサイト構築</h4>
+                    <Image
+                      filename="01_gatsby-portfolio.jpg"
+                      alt=""
+                      className="half"
+                    />
+                    <p className="description">
+                      HTML/CSS(SCSS)/Gatsby.js/Netlify
+                    </p>
                   </div>
                   <div className="detail">
                     <h4>成果物</h4>
                     <div className="links">
                       <a
-                        href="https://github.com/mkdev-works/portfolio-cafe-site"
+                        href="https://github.com/mkdev-works/portfolio"
                         target="_blank"
                         rel="noreferrer"
                       >
                         GitHubへ
                       </a>
-                      <a
-                        href="http://km-portfolio-cafe.mtnk.work/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        動作サンプルへ
-                      </a>
                     </div>
-                    <h4>完成イメージ</h4>
-                    <Image filename="01_cafe.jpg" className="half" />
-                    <p className="description">HTML/CSS</p>
+
                     <h4>説明</h4>
                     <p>
-                      デザイナーさんが作成したPSDファイルをもとにHTML,CSSでのコーディング。
-                      <br></br>
-                      レスポンシブ対応は普通にCSS手書きしました
+                      このポートフォリオサイトです。<br></br>
+                      レスポンシブ対応は普通にCSS(SCSS)手書きしました。<br></br>
+                      コンポーネントの共通化以外全ページ手書きですが、もう少し勉強して理解が進んだら外部ソースからAPIで取得したデータを元にページを作ったりいろいろ試してみたいです。
+                    </p>
+                    <p>デプロイ先はNetlifyを初使用。</p>
+                    <p>
+                      インストールしたプラグインはひとまず以下。画像の扱いはかなり良さそう。
+                      <ul>
+                        <li>SCSS関連</li>
+                        <li>画像関連</li>
+                        <li>メタデータ</li>
+                        <li>フォント関連</li>
+                      </ul>
                     </p>
                   </div>
                 </div>
@@ -58,40 +64,46 @@ const Code = () => {
                 </div>
               </div>
               {/* 作例ここまで */}
-              {/* 作例1 */}
+
+              {/* 作例2 */}
               <div className="full-content">
-                <h3>架空のPhotoサイト</h3>
+                <h3>Laravelマルチログイン+AmazonSES</h3>
                 <div className="works">
                   <div className="work">
-                    <h4>課題：デザイン(PSD)</h4>
-                    <Image filename="photo-site.jpg" alt="" />
+                    <h4>目標：Vue.js+Laravelでマルチログインを行う</h4>
+                    <Image filename="01_user-01.png" alt="" className="half" />
+                    <Image filename="01_user-02.png" alt="" className="half" />
+                    <Image filename="02_staff-01.png" alt="" className="half" />
+                    <Image filename="02_staff-02.png" alt="" className="half" />
+                    <p className="description">
+                      Laravel/Vue.js/マルチログイン/Amazon SES/EC2へのデプロイ
+                    </p>
                   </div>
                   <div className="detail">
                     <h4>成果物</h4>
                     <div className="links">
                       <a
-                        href="https://github.com/mkdev-works/portfolio-photo-site/"
+                        href="https://github.com/mkdev-works/laravel_multi_auth"
                         target="_blank"
                         rel="noreferrer"
                       >
                         GitHubへ
                       </a>
-                      <a
-                        href="http://km-portfolio-photo.mtnk.work/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        動作サンプルへ
-                      </a>
                     </div>
-                    <h4>完成イメージ</h4>
-                    <Image filename="02_photo.jpg" className="half" />
-                    <p className="description">HTML/CSS</p>
                     <h4>説明</h4>
                     <p>
-                      デザイナーさんが作成したPSDファイルをもとにHTML,CSSでのコーディング。
+                      Webサービスに管理画面が必要な場合、一般ユーザーと管理ユーザーのログイン情報はどうやって分けるのか？と気になったので調べて実装。
+                    </p>
+                    <p>
+                      ユーザー側のログインはメールアドレス認証でAmazonSES(メール送信サービス)を使用。
+                    </p>
+                    <p>
+                      ログイン後の中身はほとんどないですが、マルチ認証ログイン処理の実装自体にめちゃくちゃ苦労した記憶はあります。
                       <br></br>
-                      あらかじめPSDファイルに幅や高さのメモを書き加えておけばコーディングが楽なのだと学びました。
+                      あと、AWSのEC2にLaravelプロジェクトをデプロイする練習にもなりました。
+                    </p>
+                    <p>
+                      その後の処理を作りかけの状態でAWSの無料期間が終わってしまったので現在は非公開。
                     </p>
                   </div>
                 </div>

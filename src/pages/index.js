@@ -112,11 +112,11 @@ const Home = () => {
                 <div className="works">
                   <div className="work">
                     <Image filename="01_cafe.jpg" alt="" />
-                    <p className="description">架空のカフェ</p>
+                    <p className="description">テーマ：架空のカフェ</p>
                   </div>
                   <div className="work">
                     <Image filename="02_photo.jpg" alt="" />
-                    <p className="description">架空のPhotoサイト</p>
+                    <p className="description">テーマ：架空のPhotoサイト</p>
                   </div>
                 </div>
 
@@ -132,12 +132,14 @@ const Home = () => {
                   <div className="work">
                     <Image filename="01_gatsby-portfolio.jpg" alt="" />
                     <p className="description">
-                      このサイトです。流行りのSSG、Gatsby.jsを使ってみました。Reactの勉強もしたいです。
+                      テーマ：Gatsby.jsを使用したポートフォリオサイト
                     </p>
                   </div>
                   <div className="work">
-                    <Image filename="02_photo.jpg" alt="" />
-                    <p className="description">架空のPhotoサイト</p>
+                    <Image filename="01_user-01.png" alt="" />
+                    <p className="description">
+                      テーマ：Vue.js,Laravelマルチログイン,AmazonSESを試す
+                    </p>
                   </div>
                 </div>
 
@@ -188,11 +190,11 @@ const Home = () => {
                 <div className="works">
                   <div className="work">
                     <Image filename="word1.jpg" alt="" />
-                    <p className="description">書式/画像/表</p>
+                    <p className="description">テーマ：書式,画像,表</p>
                   </div>
                   <div className="work">
                     <Image filename="excel1.jpg" alt="" />
-                    <p className="description">書式/一覧/関数/グラフ</p>
+                    <p className="description">テーマ：書式,一覧,関数,グラフ</p>
                   </div>
                 </div>
 
