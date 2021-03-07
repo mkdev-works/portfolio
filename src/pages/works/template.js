@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout.js"
 import Image from "../../components/image.js"
+import Meta from "../../components/meta.js"
 
 const Template = () => {
   return (

@@ -2,11 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout.js"
 import Image from "../../components/image.js"
+import Meta from "../../components/meta.js"
 
 const Photoshop = () => {
   return (
     <div>
       <Layout>
+        <Meta
+          title="画像編集・バナー作成"
+          desc="Photoshopでできることの実例集です"
+        ></Meta>
         <section id="works" className="portfolio-row content-container">
           <div className="container">
             <h2>画像編集・バナー作成</h2>

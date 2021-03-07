@@ -2,11 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout.js"
 import Image from "../../components/image.js"
+import Meta from "../../components/meta.js"
 
 const Powerpoint = () => {
   return (
     <div>
       <Layout>
+        <Meta title="PowerPoint" desc="PowerPointでのプレゼン資料集です"></Meta>
         <section id="works" className="portfolio-row content-container">
           <div className="container">
             <h2>PowerPoint</h2>

@@ -2,11 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout.js"
 import Image from "../../components/image.js"
+import Meta from "../../components/meta.js"
 
 const Website = () => {
   return (
     <div>
       <Layout>
+        <Meta title="Webサイト作成" desc="静的Webサイト作成の実例集です"></Meta>
+
         <section id="works" className="portfolio-row content-container">
           <div className="container">
             <h2>Webサイト作成</h2>

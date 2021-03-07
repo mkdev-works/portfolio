@@ -2,11 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout.js"
 import Image from "../components/image.js"
+import Meta from "../components/meta.js"
 
 const About = () => {
   return (
     <div>
       <Layout>
+        <Meta
+          title="プロフィール"
+          desc="基本情報、資格、開発環境などの説明です"
+        ></Meta>
+
         {/* 基本情報 */}
         <section id="base" className="content-container">
           <div className="container">

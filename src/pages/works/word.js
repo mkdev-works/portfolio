@@ -2,11 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout.js"
 import Image from "../../components/image.js"
+import Meta from "../../components/meta.js"
 
 const Word = () => {
   return (
     <div>
       <Layout>
+        <Meta title="Word,Excel" desc="Word,Excelでできることの一例です"></Meta>
+
         <section id="works" className="portfolio-row content-container">
           <div className="container">
             <h2>Word,Excel</h2>

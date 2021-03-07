@@ -3,11 +3,17 @@ import { Link } from "gatsby"
 import Layout from "../components/layout.js"
 import Image from "../components/image.js"
 import ImageLink from "../components/imageLink.js"
+import Meta from "../components/meta.js"
 
 const Works = () => {
   return (
     <div>
       <Layout>
+        <Meta
+          title="ポートフォリオ"
+          desc="静的Webサイト作成、コーディング、画像編集、Officeなどの作品集"
+        ></Meta>
+
         {/* ポートフォリオ */}
         <section id="work" className="content-container">
           <div className="container">

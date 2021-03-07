@@ -1,11 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout.js"
+import Meta from "../components/meta.js"
 
 const Skill = () => {
   return (
     <div>
       <Layout>
+        <Meta
+          title="スキル・業務経験"
+          desc="これまでの経験業務やスキルなど"
+        ></Meta>
+
         {/* スキル・業務経験 */}
         <section id="skill" className="content-container">
           <div className="container">

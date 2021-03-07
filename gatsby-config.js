@@ -5,9 +5,10 @@
  */
 
 module.exports = {
-  // SCSS
   plugins: [
+    // SCSS
     `gatsby-plugin-sass`,
+    // 画像
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -17,5 +18,7 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    // メタデータ
+    `gatsby-plugin-react-helmet`,
   ],
 }

@@ -2,11 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout.js"
 import Image from "../components/image.js"
+import Meta from "../components/meta.js"
 
 const Home = () => {
   return (
     <div>
       <Layout>
+        <Meta
+          title="KMのポートフォリオサイトです"
+          desc="エンジニアKMのポートフォリオサイトです。"
+        ></Meta>
         {/* 挨拶 */}
         <section id="hello" className="content-container">
           <div className="container">
