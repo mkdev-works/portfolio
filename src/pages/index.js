@@ -18,7 +18,7 @@ const Home = () => {
             <h2>ご挨拶</h2>
             <div className="contents">
               <div className="profile">
-                <Image filename="profile.png" alt="いえーい" />
+                <Image filename="profile.jpg" alt="近影" />
               </div>
               <div className="text-content">
                 <p>
