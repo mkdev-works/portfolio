@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Layout>
-        {/* mainタグ内部 */}
+        {/* 挨拶 */}
         <section id="hello" className="content-container">
           <div className="container">
             <h2>ご挨拶</h2>
@@ -34,21 +34,24 @@ const Home = () => {
                   現在、宮崎県宮崎市もしくはフルリモートで働ける開発・コーディング・IT系のお仕事を探しております。よろしくお願いします！
                 </p>
                 <div className="footer-link">
-                  <Link to="/about">詳しくはこちら（自己紹介へ）</Link>
+                  <Link to="/about">自己紹介を見る</Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        {/* 挨拶ここまで */}
+
+        {/* スキル・経験 */}
         <section id="skill" className="content-container">
           <div className="container">
             <h2>スキル・経験</h2>
             <div className="contents">
-              {/* Webサイト */}
+              {/* 開発工程 */}
               <div className="half-content">
                 <h3>開発工程</h3>
                 <p>
-                  ※プロジェクトごと・お客様ごとに異なる設計書の形式やコーディング規約に沿って設計・開発業務を行ってきました。
+                  プロジェクトごと・お客様ごとに異なる設計書の形式やコーディング規約に沿って設計・開発業務を行ってきました。
                 </p>
                 <ul>
                   <li>基本設計</li>
@@ -58,27 +61,18 @@ const Home = () => {
                   <li>総合試験設計・実施</li>
                 </ul>
               </div>
+              {/* 開発業務 */}
               <div className="half-content">
                 <h3>主な開発業務と使用スキル</h3>
                 <ul>
-                  <li>
-                    業務管理系Webシステム(ATM管理、警備会社の警送管理、地方自治体のVoIP放送管理、他)
-                  </li>
+                  <li>業務系Webシステム, 一般向けWebサービス</li>
                   <ul>
                     <li>
-                      Java(Struts), Adobe Flex, HTML, CSS, Javascript(jQuery)
+                      Java(Struts), PHP, Adobe Flex, HTML, CSS,
+                      Javascript(jQuery)
                     </li>
                     <li>Oracle, MySQL, PostgreSQLなど</li>
                   </ul>
-                  {/* <li>地方自治体のWebサービス</li>
-                  <ul>
-                    <li>Java(Spring), HTML, CSS, Javascript(jQuery)</li>
-                    <li>Oracle</li>
-                  </ul>
-                  <li>記事コンテンツ投稿・管理サイト</li>
-                  <ul>
-                    <li>Java, Adobe Flex</li>
-                  </ul>*/}
                   <li>ショッピングサイトの夜間バッチ処理</li>
                   <ul>
                     <li>Java(Spring Boot)</li>
@@ -89,20 +83,18 @@ const Home = () => {
                     <li>Java(Swing)</li>
                     <li>IBM DB2</li>
                   </ul>
-                  <li>一般顧客向け自社Webサービス</li>
-                  <ul>
-                    <li>PHP, HTML, CSS, Javascript(jQuery)</li>
-                    <li>MySQL</li>
-                  </ul>
                 </ul>
                 <div className="footer-link">
-                  <Link to={"/skill"}>詳しくはこちら(スキル詳細へ)</Link>
+                  <Link to={"/skill"}>スキル詳細を見る</Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section id="skill" className="content-container">
+        {/* スキルここまで */}
+
+        {/* ポートフォリオ */}
+        <section id="work" className="content-container">
           <div className="container">
             <h2>ポートフォリオ</h2>
             <div className="contents">
@@ -124,7 +116,7 @@ const Home = () => {
                 </div>
 
                 <div className="footer-link">
-                  <Link to="/works">詳しくはこちら(XXXへ)</Link>
+                  <Link to="/works/website">Webサイト作成例を見る</Link>
                 </div>
               </div>
               {/* コーディング */}
@@ -145,7 +137,7 @@ const Home = () => {
                 </div>
 
                 <div className="footer-link">
-                  <Link to="/works">詳しくはこちら(XXXへ)</Link>
+                  <Link to="/works/code">コーディング例を見る</Link>
                 </div>
               </div>
 
@@ -180,7 +172,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="footer-link">
-                  <Link to="/works">詳しくはこちら(XXXへ)</Link>
+                  <Link to="/works/photoshop">画像編集例を見る</Link>
                 </div>
               </div>
 
@@ -200,12 +192,12 @@ const Home = () => {
                 </div>
 
                 <div className="footer-link">
-                  <Link to="/works">詳しくはこちら(XXXへ)</Link>
+                  <Link to="/works/word">Word,Excel例を見る</Link>
                 </div>
               </div>
               {/* PowerPoint */}
               <div className="half-content">
-                <h3>プレゼン</h3>
+                <h3>PowerPoint</h3>
                 <p>PowerPointを使用したプレゼンが可能です。</p>
                 <div className="works">
                   <div className="work">
@@ -218,12 +210,13 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="footer-link">
-                  <Link to="/works">詳しくはこちら(XXXへ)</Link>
+                  <Link to="/works/powerpoint">PowerPoint例を見る</Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        {/* ポートフォリオここまで */}
       </Layout>
     </div>
   )

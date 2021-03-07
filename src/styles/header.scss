@@ -3,11 +3,10 @@
 header {
   height: 60px;
   background-color: #aaaaaa;
-  // filter: drop-shadow(0px 5px 3px rgba(26, 61, 85, 0.2));
+  // filter: drop-shadow(0px 5px 3px rgba(26, 61, 85, 0.2)); // ダサいか？
 
   // タイトルとナビ部を横並びに配置
   .container {
-    // border: 1px solid red;
     display: flex;
     justify-content: space-between;
   }
@@ -23,6 +22,17 @@ header {
     }
   }
 
+  // ヘッダー部リンクスタイル全般
+  a {
+    text-decoration: none;
+    color: #ffffff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  // ナビ部
   nav {
     display: flex;
     align-items: center;
@@ -38,7 +48,6 @@ header {
           padding-left: 25px;
           padding-right: 25px;
           line-height: 60px;
-
           height: 60px;
           // border-left: 1px solid #777777;
 
@@ -58,15 +67,7 @@ header {
     }
   }
 
-  a {
-    text-decoration: none;
-    color: #ffffff;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
+  // 画面サイズ大の場合、ハンバーガーメニューは表示しない
   .hamburger-menu {
     display: none;
   }
@@ -85,19 +86,21 @@ header {
     .hamburger-menu {
       display: block;
 
-      // メニューボタン
+      // メニューボタン：右上固定
       .menu-btn {
         position: fixed;
         top: 0px;
         right: 0px;
         display: flex;
-        height: 60px;
+        height: 58px;
         width: 60px;
         justify-content: center;
         align-items: center;
         z-index: 90;
         background-color: #aaaaaa;
+        border-radius: 0px 0px 0px 10px;
 
+        // 3本線
         span,
         span:before,
         span:after {
@@ -119,6 +122,7 @@ header {
         }
       }
 
+      // 開閉用チェックボックス
       #menu-btn-check {
         display: none;
 
@@ -181,6 +185,12 @@ header {
                 position: absolute;
                 right: 11px;
                 top: 16px;
+              }
+
+              // 現在表示中のリンク
+              &[aria-current="page"] {
+                color: #333;
+                font-weight: bold;
               }
             }
           }
