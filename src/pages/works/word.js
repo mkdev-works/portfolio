@@ -13,7 +13,6 @@ const Word = () => {
         <section id="works" className="portfolio-row content-container">
           <div className="container">
             <h2>Word,Excel</h2>
-            {/* <Link to="/works">ポートフォリオ一覧へ戻る</Link> */}
             <div className="contents">
               {/* 作例1 */}
               <div className="full-content">
@@ -35,6 +34,9 @@ const Word = () => {
                     />
                     <p className="description">日付関数の練習/カレンダー</p>
                   </div>
+                </div>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
                 </div>
               </div>
               {/* 作例ここまで */}
@@ -60,6 +62,9 @@ const Word = () => {
                       一般向け文書/書式/箇条書き/画像
                     </p>
                   </div>
+                </div>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
                 </div>
               </div>
               {/* 作例ここまで */}

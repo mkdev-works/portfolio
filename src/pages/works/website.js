@@ -13,7 +13,6 @@ const Website = () => {
         <section id="works" className="portfolio-row content-container">
           <div className="container">
             <h2>Webサイト作成</h2>
-            {/* <Link to="/works">ポートフォリオ一覧へ戻る</Link> */}
             <div className="contents">
               {/* Webサイト */}
               <div className="full-content">
@@ -53,8 +52,11 @@ const Website = () => {
                     </p>
                   </div>
                 </div>
-                {/* 作例ここまで */}
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
+                </div>
               </div>
+              {/* 作例ここまで */}
               {/* 作例1 */}
               <div className="full-content">
                 <h3>架空のPhotoサイト</h3>
@@ -89,6 +91,9 @@ const Website = () => {
                       あらかじめPSDファイルに幅や高さのメモを書き加えておけばコーディングが楽なのだと学びました。
                     </p>
                   </div>
+                </div>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
                 </div>
               </div>
             </div>

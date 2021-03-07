@@ -37,6 +37,9 @@ const Photoshop = () => {
                     </p>
                   </div>
                 </div>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
+                </div>
               </div>
 
               {/* 作例2 */}
@@ -60,6 +63,9 @@ const Photoshop = () => {
                     </p>
                   </div>
                 </div>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
+                </div>
               </div>
 
               {/* 作例3 */}
@@ -82,6 +88,9 @@ const Photoshop = () => {
                       やや詰め込みすぎたかもしれません。
                     </p>
                   </div>
+                </div>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
                 </div>
               </div>
 
@@ -115,6 +124,9 @@ const Photoshop = () => {
                     </p>
                   </div>
                 </div>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
+                </div>
               </div>
 
               {/* 作例5 */}
@@ -139,6 +151,9 @@ const Photoshop = () => {
                 <h4>バナー作成練習のためのトレース4</h4>
                 <Image filename="ps-tr_04-02_diff.png" alt="" />
                 <p className="description">パスで吹き出し/文字の境界線</p>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
+                </div>
               </div>
             </div>
           </div>

@@ -12,7 +12,6 @@ const Powerpoint = () => {
         <section id="works" className="portfolio-row content-container">
           <div className="container">
             <h2>PowerPoint</h2>
-            {/* <Link to="/works">ポートフォリオ一覧へ戻る</Link> */}
             <div className="contents">
               {/* 作例1 */}
               <div className="full-content">
@@ -37,6 +36,9 @@ const Powerpoint = () => {
                 <p className="description">
                   プレゼンの構成/デザイン・テーマ統一/トランジション/発表時間の管理/滑舌の悪さ・緊張との戦い/
                 </p>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
+                </div>
               </div>
               {/* 作例ここまで */}
               {/* 作例2 */}
@@ -63,6 +65,9 @@ const Powerpoint = () => {
                 <p className="description">
                   プレゼンの構成/図形・画像/デザイン・テーマ統一/発表時間の管理
                 </p>
+                <div className="footer-link">
+                  <Link to="/works">ポートフォリオへ戻る</Link>
+                </div>
               </div>
               {/* 作例ここまで */}
             </div>
