@@ -64,7 +64,7 @@ const Skill = () => {
                 <h3>主な開発業務と使用スキル</h3>
                 <ul>
                   <li>
-                    業務管理系Webシステム<br></br>
+                    業務管理系Webシステム…6〜7年<br></br>
                     (ATM管理、警備会社の警送管理、地方自治体のVoIP放送管理 他)
                   </li>
                   <ul>
@@ -73,22 +73,22 @@ const Skill = () => {
                     </li>
                     <li>Oracle, MySQL, PostgreSQLなど</li>
                   </ul>
-                  <li>ショッピングサイトの夜間バッチ処理</li>
+                  <li>ショッピングサイトの夜間バッチ処理…半年以下</li>
                   <ul>
                     <li>Java(Spring Boot)</li>
                     <li>MySQL</li>
                   </ul>
-                  <li>電子カルテ(デスクトップアプリ)</li>
+                  <li>電子カルテ(デスクトップアプリ)…3〜4年</li>
                   <ul>
                     <li>Java(Swing)</li>
                     <li>IBM DB2</li>
                   </ul>
-                  <li>一般顧客向け自社Webサービス</li>
+                  <li>一般顧客向け自社Webサービス…1〜2年</li>
                   <ul>
                     <li>PHP, HTML, CSS, Javascript(jQuery)</li>
                     <li>MySQL</li>
                   </ul>
-                  <li>地図データチェック(バッチ)</li>
+                  <li>地図データチェック(バッチ)…半年以下</li>
                   <ul>
                     <li>C++</li>
                   </ul>

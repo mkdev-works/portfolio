@@ -48,7 +48,7 @@ const Works = () => {
               {/* コーディング */}
               <div className="half-content">
                 <h3>コーディング</h3>
-                <p>PHPとVue.jsの勉強で書いたコードです。</p>
+                <p>PHPとJavascriptの勉強で書いたコードです。</p>
                 <div className="works">
                   <div className="work">
                     <Image
