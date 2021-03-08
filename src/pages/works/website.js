@@ -15,9 +15,9 @@ const Website = () => {
             <h2>Webサイト作成</h2>
             <div className="contents">
               {/* Webサイト */}
+              {/* 作例 */}
               <div className="full-content">
                 <h3>架空のカフェのWebサイト</h3>
-                {/* 作例 */}
                 <div className="works">
                   <div className="work">
                     <h4>課題：デザイン(PSD)</h4>
@@ -44,8 +44,11 @@ const Website = () => {
                       </a>
                     </div>
                     <h4>完成イメージ</h4>
-                    <Image filename="01_cafe.jpg" className="half" />
-                    <p className="description">HTML/CSS</p>
+                    <Image
+                      filename="01_cafe.jpg"
+                      className="half"
+                      caption="HTML/CSS"
+                    />
                     <h4>説明</h4>
                     <p>
                       デザイナーさんが作成したPSDファイルをもとにHTML,CSSでのコーディング。
@@ -86,8 +89,11 @@ const Website = () => {
                       </a>
                     </div>
                     <h4>完成イメージ</h4>
-                    <Image filename="02_photo.jpg" className="half" />
-                    <p className="description">HTML/CSS</p>
+                    <Image
+                      filename="02_photo.jpg"
+                      className="half"
+                      caption="HTML/CSS"
+                    />
                     <h4>説明</h4>
                     <p>
                       デザイナーさんが作成したPSDファイルをもとにHTML,CSSでのコーディング。

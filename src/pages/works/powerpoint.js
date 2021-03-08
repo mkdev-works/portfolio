@@ -19,11 +19,10 @@ const Powerpoint = () => {
 
                 <div className="works">
                   <div className="work">
-                    <Image filename="powerPoint1.png" />
-
-                    <p className="description">
-                      プレゼンの構成/デザイン・テーマ統一/トランジション/発表時間の管理/滑舌の悪さ・緊張との戦い/
-                    </p>
+                    <Image
+                      filename="powerPoint1.png"
+                      caption="プレゼンの構成/デザイン・テーマ統一/トランジション/発表時間の管理/滑舌の悪さ・緊張との戦い/"
+                    />
                   </div>
                   <div className="detail">
                     <h4>成果物</h4>
@@ -54,11 +53,10 @@ const Powerpoint = () => {
 
                 <div className="works">
                   <div className="work">
-                    <Image filename="powerPoint2.jpg" />
-
-                    <p className="description">
-                      レゼンの構成/図形・画像/デザイン・テーマ統一/発表時間の管理
-                    </p>
+                    <Image
+                      filename="powerPoint2.jpg"
+                      caption="プレゼンの構成/図形・画像/デザイン・テーマ統一/発表時間の管理"
+                    />
                   </div>
                   <div className="detail">
                     <h4>成果物</h4>

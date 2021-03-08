@@ -20,10 +20,11 @@ const Word = () => {
                 <div className="works">
                   <div className="work">
                     <h4>課題1：普通のエクセル文書作成</h4>
-                    <Image filename="excel1.jpg" alt="Word文書" />
-                    <p className="description">
-                      ビジネス文書/書式/一覧/関数(SUM, LOOKUP, IFERROR)
-                    </p>
+                    <Image
+                      filename="excel1.jpg"
+                      alt="Word文書"
+                      caption="ビジネス文書/書式/一覧/関数(SUM, LOOKUP, IFERROR)"
+                    />
                   </div>
 
                   <div className="work">
@@ -31,8 +32,8 @@ const Word = () => {
                     <Image
                       filename="excel2.jpg"
                       alt="Wordで作ったホットケーキレシピ"
+                      caption="日付関数の練習/カレンダー"
                     />
-                    <p className="description">日付関数の練習/カレンダー</p>
                   </div>
                 </div>
                 <div className="footer-link">
@@ -46,10 +47,11 @@ const Word = () => {
                 <div className="works">
                   <div className="work">
                     <h4>課題1：普通の文書作成</h4>
-                    <Image filename="word1.jpg" alt="Word文書" />
-                    <p className="description">
-                      ビジネス文書/書式/表/写真/図形
-                    </p>
+                    <Image
+                      filename="word1.jpg"
+                      alt="Word文書"
+                      caption="ビジネス文書/書式/表/写真/図形"
+                    />
                   </div>
 
                   <div className="work">
@@ -57,10 +59,8 @@ const Word = () => {
                     <Image
                       filename="word2.jpg"
                       alt="Wordで作ったホットケーキレシピ"
+                      caption="一般向け文書/書式/箇条書き/画像"
                     />
-                    <p className="description">
-                      一般向け文書/書式/箇条書き/画像
-                    </p>
                   </div>
                 </div>
                 <div className="footer-link">

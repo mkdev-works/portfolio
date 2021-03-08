@@ -145,22 +145,24 @@ const Skill = () => {
               <div className="half-content">
                 <h3>Web系</h3>
                 <ul>
-                  <li>HTML…7〜8年程度</li>
+                  <li>HTML…6〜7年程度</li>
                   <ul>
                     <li>div,span,a,imgなど基本的なタグの理解</li>
                     <li>新しめのタグはその都度勉強中</li>
                   </ul>
-                  <li>CSS…7〜8年程度</li>
+                  <li>CSS…6〜7年程度</li>
                   <ul>
                     <li>id,class指定での基本的なデザイン</li>
                     <li>SASS(SCSS)で効率よく記述</li>
                     <li>アニメーションや凝ったデザインは勉強中</li>
                   </ul>
-                  <li>Javascript…7〜8年程度</li>
+                  <li>Javascript…6〜7年程度</li>
                   <ul>
                     <li>jQuery：指定方法や動作への基本的な理解</li>
-                    <li>Vue.js：独学、業務使用なし。VueCLI,Vuetify</li>
-                    <li>Gatsby.js：独学。このサイトを作る際に使用</li>
+                    <li>Vue.js：独習、業務使用なし。VueCLI,Vuetify</li>
+                    <li>
+                      Gatsby.js：独習、業務使用なし。このサイトを作る際に使用
+                    </li>
                   </ul>
                 </ul>
 
@@ -266,7 +268,7 @@ const Skill = () => {
                       VPC / EC2 / RDS(MySQL) / S3 / CloudFront / ELB / Route53 /
                       Amplify / SES
                     </li>
-                    <li>無料期間が終わってしまったので学習中断</li>
+                    <li>無料期間が終わったため学習中断</li>
                   </ul>
                   <li>Laravel</li>
                   <ul>
@@ -298,19 +300,16 @@ const Skill = () => {
                   </ul>
                   <li>Webデザイン</li>
                   <ul>
-                    <li>もう少しダサくないデザイン</li>
+                    <li>現代風のデザイン・パターン</li>
                     <li>Adobe XD</li>
                   </ul>
                   <li>英語</li>
                   <ul>
-                    <li>
-                      チュートリアルを読むときや外国の人とやりとりするときに難儀するので
-                    </li>
-                    <li>中学生以下レベルから脱却したい</li>
+                    <li>チュートリアルを難なく読める程度</li>
                   </ul>
-                  <li>AWS（金銭的余裕ができたら）</li>
+                  <li>AWS</li>
                   <ul>
-                    <li>フルスタックエンジニアを名乗りたいので</li>
+                    <li>インフラへの基礎的な理解</li>
                   </ul>
                 </ul>
               </div>

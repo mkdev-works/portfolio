@@ -24,6 +24,7 @@ export default props => {
         }
         alt={props.alt}
       />
+      <figcaption>{props.caption}</figcaption>
     </figure>
   )
 }

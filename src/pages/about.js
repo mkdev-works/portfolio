@@ -72,7 +72,7 @@ const About = () => {
 
                   <dt>その他</dt>
                   <dd>
-                    健康のために毎朝ラジオ体操をやってます。始めてから半年、割と快調！
+                    健康のために毎朝ラジオ体操をやってます。始めてから半年、割と快調です。
                     <br></br>
                   </dd>
                 </dl>
@@ -115,10 +115,11 @@ const About = () => {
             <div className="contents">
               <div className="half-content">
                 <h3>リモートワーク対応できます</h3>
-                <Image filename="room.jpg" alt="作業環境" />
-                <p className="description">
-                  Webカメラがスマホでよければいつでもリモートワーク可能
-                </p>
+                <Image
+                  filename="room.jpg"
+                  alt="作業環境"
+                  caption="Webカメラがスマホで問題なければいつでもリモートワーク可能です"
+                />
               </div>
               <div className="half-content">
                 <h3>開発・動作確認端末</h3>

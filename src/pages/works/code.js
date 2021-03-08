@@ -14,9 +14,9 @@ const Code = () => {
             <h2>コーディング</h2>
             <div className="contents">
               {/* Webサイト */}
+              {/* 作例 */}
               <div className="full-content">
                 <h3>Gatsby.jsを使用したポートフォリオサイト</h3>
-                {/* 作例 */}
                 <div className="works">
                   <div className="work">
                     <h4>目標：Gatsby.jsを使ってサイト構築</h4>
@@ -24,10 +24,8 @@ const Code = () => {
                       filename="01_gatsby-portfolio.jpg"
                       alt=""
                       className="half"
+                      caption="HTML/CSS(SCSS)/Gatsby.js/Netlify"
                     />
-                    <p className="description">
-                      HTML/CSS(SCSS)/Gatsby.js/Netlify
-                    </p>
                   </div>
                   <div className="detail">
                     <h4>成果物</h4>
@@ -74,10 +72,12 @@ const Code = () => {
                     <Image filename="01_user-01.png" alt="" className="half" />
                     <Image filename="01_user-02.png" alt="" className="half" />
                     <Image filename="02_staff-01.png" alt="" className="half" />
-                    <Image filename="02_staff-02.png" alt="" className="half" />
-                    <p className="description">
-                      Laravel/Vue.js/マルチログイン/Amazon SES/EC2へのデプロイ
-                    </p>
+                    <Image
+                      filename="02_staff-02.png"
+                      alt=""
+                      className="half"
+                      caption="Laravel/Vue.js/マルチログイン/Amazon SES/EC2へのデプロイ"
+                    />
                   </div>
                   <div className="detail">
                     <h4>成果物</h4>

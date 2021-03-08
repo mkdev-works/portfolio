@@ -111,12 +111,18 @@ const Home = () => {
                 </p>
                 <div className="works">
                   <div className="work">
-                    <Image filename="01_cafe.jpg" alt="" />
-                    <p className="description">テーマ：架空のカフェ</p>
+                    <Image
+                      filename="01_cafe.jpg"
+                      alt=""
+                      caption="テーマ：架空のカフェ"
+                    />
                   </div>
                   <div className="work">
-                    <Image filename="02_photo.jpg" alt="" />
-                    <p className="description">テーマ：架空のPhotoサイト</p>
+                    <Image
+                      filename="02_photo.jpg"
+                      alt=""
+                      caption="テーマ：架空のPhotoサイト"
+                    />
                   </div>
                 </div>
 
@@ -130,16 +136,18 @@ const Home = () => {
                 <p>PHPとVue.jsの勉強で書いたコードです。</p>
                 <div className="works">
                   <div className="work">
-                    <Image filename="01_gatsby-portfolio.jpg" alt="" />
-                    <p className="description">
-                      テーマ：Gatsby.jsを使用したポートフォリオサイト
-                    </p>
+                    <Image
+                      filename="01_gatsby-portfolio.jpg"
+                      alt=""
+                      caption="テーマ：Gatsby.jsを使用したポートフォリオサイト"
+                    />
                   </div>
                   <div className="work">
-                    <Image filename="01_user-01.png" alt="" />
-                    <p className="description">
-                      テーマ：Vue.js,Laravelマルチログイン,AmazonSESを試す
-                    </p>
+                    <Image
+                      filename="01_user-01.png"
+                      alt=""
+                      caption="テーマ：Vue.js,Laravelマルチログイン,AmazonSESを試す"
+                    />
                   </div>
                 </div>
 
@@ -154,28 +162,32 @@ const Home = () => {
                 <p>Photoshopを使用して簡単なバナー作成や画像編集が可能です。</p>
                 <div className="works">
                   <div className="work">
-                    <Image filename="ps-bn_01-01_chirashi-after.png" alt="" />
-                    <p className="description">
-                      テーマ：既に存在するチラシの一部を修正(情報量そのままデザイン修正)
-                    </p>
+                    <Image
+                      filename="ps-bn_01-01_chirashi-after.png"
+                      alt=""
+                      caption="テーマ：既に存在するチラシの一部を修正(情報量そのままデザイン修正)"
+                    />
                   </div>
                   <div className="work">
-                    <Image filename="ps-bn_04-01_cacaomania.png" alt="" />
-                    <p className="description">
-                      テーマ：架空のBeen to BarチョコレートショップのWebバナー
-                    </p>
+                    <Image
+                      filename="ps-bn_04-01_cacaomania.png"
+                      alt=""
+                      caption="テーマ：架空のBeen to BarチョコレートショップのWebバナー"
+                    />
                   </div>
                   <div className="work">
-                    <Image filename="ps-bn_02-01_banner-600px.png" alt="" />
-                    <p className="description">
-                      テーマ：職業訓練校のWebバナー(画像サイズ別・5種)
-                    </p>
+                    <Image
+                      filename="ps-bn_02-01_banner-600px.png"
+                      alt=""
+                      caption="テーマ：職業訓練校のWebバナー(画像サイズ別・5種)"
+                    />
                   </div>
                   <div className="work">
-                    <Image filename="ps-bn_03-01_stories01.png" alt="" />
-                    <p className="description">
-                      テーマ：架空のカップケーキ屋さんの開店広告(インスタ)
-                    </p>
+                    <Image
+                      filename="ps-bn_03-01_stories01.png"
+                      alt=""
+                      caption="テーマ：架空のカップケーキ屋さんの開店広告(インスタ)"
+                    />
                   </div>
                 </div>
                 <div className="footer-link">
@@ -189,12 +201,18 @@ const Home = () => {
                 <p>Word,Excelの基本的な使用が可能です。</p>
                 <div className="works">
                   <div className="work">
-                    <Image filename="word1.jpg" alt="" />
-                    <p className="description">テーマ：書式,画像,表</p>
+                    <Image
+                      filename="word1.jpg"
+                      alt=""
+                      caption="テーマ：書式,画像,表"
+                    />
                   </div>
                   <div className="work">
-                    <Image filename="excel1.jpg" alt="" />
-                    <p className="description">テーマ：書式,一覧,関数,グラフ</p>
+                    <Image
+                      filename="excel1.jpg"
+                      alt=""
+                      caption="テーマ：書式,一覧,関数,グラフ"
+                    />
                   </div>
                 </div>
 
@@ -208,12 +226,18 @@ const Home = () => {
                 <p>PowerPointを使用したプレゼンが可能です。</p>
                 <div className="works">
                   <div className="work">
-                    <Image filename="powerPoint1.png" alt="" />
-                    <p className="description">テーマ：好きなものを推す</p>
+                    <Image
+                      filename="powerPoint1.png"
+                      alt=""
+                      caption="テーマ：好きなものを推す"
+                    />
                   </div>
                   <div className="work">
-                    <Image filename="powerPoint2.jpg" alt="" />
-                    <p className="description">テーマ：Git紹介</p>
+                    <Image
+                      filename="powerPoint2.jpg"
+                      alt=""
+                      caption="テーマ：Git紹介"
+                    />
                   </div>
                 </div>
                 <div className="footer-link">

@@ -21,10 +21,11 @@ const Photoshop = () => {
                 <h3>高級チョコレート店のWebバナー</h3>
                 <div className="works">
                   <div className="work">
-                    <Image filename="ps-bn_04-01_cacaomania.png" alt="" />
-                    <p className="description">
-                      高級感/受賞歴による権威付け/シェフの顔が見える安心感
-                    </p>
+                    <Image
+                      filename="ps-bn_04-01_cacaomania.png"
+                      alt=""
+                      caption="高級感/受賞歴による権威付け/シェフの顔が見える安心感"
+                    />
                   </div>
                   <div className="detail">
                     <h4>課題：架空のBeen to Barチョコレートショップ</h4>
@@ -49,10 +50,11 @@ const Photoshop = () => {
                 <div className="works">
                   <div className="work">
                     <h4>課題：情報量を減らさずにデザインを整える</h4>
-                    <Image filename="ps-bn_01-01_chirashi-after.png" alt="" />
-                    <p className="description">
-                      サイズ/レイアウト/文字サイズ/カラー/余白
-                    </p>
+                    <Image
+                      filename="ps-bn_01-01_chirashi-after.png"
+                      alt=""
+                      caption="サイズ/レイアウト/文字サイズ/カラー/余白"
+                    />
                   </div>
                   <div className="detail">
                     <h4>説明</h4>
@@ -75,8 +77,11 @@ const Photoshop = () => {
                 <div className="works">
                   <div className="work">
                     <h4>課題：転職のために学びたい人に向けての広告バナー</h4>
-                    <Image filename="ps-bn_02-01_banner-600px.png" alt="" />
-                    <p className="description">安心感/無料/就職への期待</p>
+                    <Image
+                      filename="ps-bn_02-01_banner-600px.png"
+                      alt=""
+                      caption="安心感/無料/就職への期待"
+                    />
                   </div>
                   <div className="detail">
                     <h4>説明</h4>
@@ -104,15 +109,13 @@ const Photoshop = () => {
                       filename="ps-bn_03-01_stories01.png"
                       alt=""
                       className="half"
+                      caption="可愛さ/20台前半/インスタ映え/お得感"
                     />
                     <Image
                       filename="ps-bn_03-02_stories02.png"
                       alt=""
                       className="half"
                     />
-                    <p className="description">
-                      可愛さ/20台前半/インスタ映え/お得感
-                    </p>
                   </div>
                   <div className="detail">
                     <h4>説明</h4>
@@ -133,24 +136,32 @@ const Photoshop = () => {
               <div className="full-content">
                 <h3>バナートレース</h3>
                 <h4>バナー作成練習のためのトレース1</h4>
-                <Image filename="ps-tr_01-02_diff.png" alt="" />
+                <Image
+                  filename="ps-tr_01-02_diff.png"
+                  alt=""
+                  caption="上下・左右の余白統一/フォント/レイアウト/文字の色変え"
+                />
 
-                <p className="description">
-                  上下・左右の余白統一/フォント/レイアウト/文字の色変え
-                </p>
                 <h4>バナー作成練習のためのトレース2</h4>
-                <Image filename="ps-tr_02-02_diff.png" alt="" />
+                <Image
+                  filename="ps-tr_02-02_diff.png"
+                  alt=""
+                  caption="上下・左右の余白統一/ズレ幅の統一"
+                />
 
-                <p className="description">上下・左右の余白統一/ズレ幅の統一</p>
                 <h4>バナー作成練習のためのトレース3</h4>
-                <Image filename="ps-tr_03-02_diff.png" alt="" />
-                <p className="description">
-                  シェイプで棘円/色づいたドロップシャドウ/文字の傾き/パスツールでアイスの切り抜き
-                </p>
+                <Image
+                  filename="ps-tr_03-02_diff.png"
+                  alt=""
+                  caption="シェイプで棘円/色づいたドロップシャドウ/文字の傾き/パスツールでアイスの切り抜き"
+                />
 
                 <h4>バナー作成練習のためのトレース4</h4>
-                <Image filename="ps-tr_04-02_diff.png" alt="" />
-                <p className="description">パスで吹き出し/文字の境界線</p>
+                <Image
+                  filename="ps-tr_04-02_diff.png"
+                  alt=""
+                  caption="パスで吹き出し/文字の境界線"
+                />
                 <div className="footer-link">
                   <Link to="/works">ポートフォリオへ戻る</Link>
                 </div>
